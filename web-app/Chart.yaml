@@ -1,0 +1,9 @@
+apiVersion: v2
+name: nginx-chart
+description: Example running ngix in multiple namespaces
+type: application
+version: 0.1.0
+appVersion: "1.0.0"
+maintainers:
+- email: lalves.fs@gmail.com
+  name: lufisaal

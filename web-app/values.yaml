@@ -1,0 +1,12 @@
+replicas: 3
+namespace: default
+appName: webapp-ngix
+image:
+  repository: docker.io/library/nginx
+  tag: latest
+  pullPolicy: Never
+
+service:
+  name: nginx-service
+  type: ClusterIP
+  port: 80
